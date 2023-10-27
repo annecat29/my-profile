@@ -1,0 +1,180 @@
+
+
+body {
+background-color: #D3D5C88;
+font-family: 'Arial', sans-serif;
+line-height: 2.1;
+}
+
+h1, h2 {
+  
+  text-align: center;
+  
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  }
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul{
+
+list-style-type: none;
+padding-left: 0px;
+}
+li{
+	font-size: 18px;
+}
+
+
+
+
+
+
+.speak img {
+margin-left: 10px;
+margin-right: 10px;
+}
+.speak H2 {
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.speak p{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.speak h2 {
+margin-bottom: 40px;
+}
+
+
+.contact h2{
+margin-bottom: 40px;
+}
+
+.img-circle {
+  width: 230px;
+	height: auto;
+	border-radius: 50%;
+
+}
+
+.container {
+  width: 600px; 
+  margin: 40px auto; 
+ }
+
+ .flexcontainer {
+ 	width: 600px;
+ 	flex-grow: 1;
+ 	display: flex;
+	flex-wrap: wrap;
+	
+	margin: 20px auto;
+
+
+	background: rgb(205, 245, 253);                       
+	                           
+	border-radius: 10px;                      
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2); 
+ }
+
+.card-white { 
+	background:rgb(205, 245, 253);                         /* White background */
+	padding: 40px;                             /* Internal space */
+	border-radius: 10px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);    /* Light shadow */
+
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card { 
+
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background: white;
+	display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+	
+	padding: 20px;
+	
+	flex-grow: 1;
+	margin:20px;
+	
+}
+
+.card img {
+  width: 70px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.titre {
+	
+	
+	background: rgb(205, 245, 253);                         
+	padding: 15px 0px;                             
+	border-radius: 10px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);    
+
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.link{
+display: inline;
+background: transparent;
+width: 80px;
+height: 80px;
+border-radius: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.logo {
+height: 90px;
+width: 90px;
+border-radius: 6%;
+}
+
+
+.flag {
+height: 70px;
+width: 80px;
+display: inline;
+border-radius: 20px;
+}
+
+.list-inline{
+	liststyle:none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+}
+.list-inline i {
+	
+	font-size: 5;
+}
+
+
+}
